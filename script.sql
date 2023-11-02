@@ -20,3 +20,8 @@ SHOW TABLES FROM Banco_de_teste;
 SHOW FIELDS FROM Banco_de_teste.alunos;
 
 USE Banco_de_teste;
+
+CREATE TABLE teste(
+        id INT PRIMARY KEY,
+        valor CHAR(11)
+);
